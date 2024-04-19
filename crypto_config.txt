@@ -1,0 +1,35 @@
+# Cryptocurrency Service Configuration - FAKE DATA FOR TESTING
+
+## Blockchain Wallet Access
+# Bitcoin Wallet
+BITCOIN_WALLET_PRIVATE_KEY="5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF"
+# Ethereum Wallet
+ETHEREUM_WALLET_PRIVATE_KEY="0x4c0883a69102937d623141a674ad3bd78ceda85eefc0e0c7357bdb9a5eefd347"
+
+## Exchange API Credentials
+# Binance API
+BINANCE_API_KEY="vmPUZE6mv6Yv1lZVgb50zSnM3xyA2gqD"
+BINANCE_API_SECRET="NhqxaGhYvy3ZmNr0qABcQHfbPYA3A0E7"
+# Coinbase API
+COINBASE_API_KEY="a1b2c3d4e5f6g7h8i9j0"
+COINBASE_API_SECRET="RST5v0KLCz7JN9mJNKzZzZH9H7GCJZ6f"
+
+## Smart Contract Interaction
+# Ethereum
+ETH_CONTRACT_ADDRESS="0x237c1fb74beda73b43b2c2d7efb26701c38d4dda"
+ETH_CONTRACT_ABI_JSON="{...}"
+
+## Node Configuration
+# Bitcoin Node
+BITCOIN_NODE_URL="http://localhost:18332"
+BITCOIN_NODE_USERNAME="nodeaccess"
+BITCOIN_NODE_PASSWORD="nodepassword"
+# Ethereum Node
+ETHEREUM_NODE_URL="https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+ETHEREUM_NODE_ACCESS_TOKEN="0x9b07f2e2ece454b8b9db08f0808"
+
+## Mining Settings
+MINING_DIFFICULTY="high"
+MINING_REWARD_ADDRESS="1BoatSLRHtKNngkdXEeobR76b53LETtpyT"
+
+# End of Configuration

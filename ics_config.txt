@@ -1,0 +1,39 @@
+# Industrial Control Systems Configuration - FAKE DATA FOR TESTING
+
+## PLC (Programmable Logic Controller) Settings
+# Siemens S7
+SIEMENS_S7_IP="192.168.1.100"
+SIEMENS_S7_PORT="102"
+SIEMENS_S7_USER="admin"
+SIEMENS_S7_PASSWORD="plcadmin2024"
+
+# Allen-Bradley ControlLogix
+AB_CONTROLLOGIX_IP="192.168.2.200"
+AB_CONTROLLOGIX_PORT="44818"
+AB_CONTROLLOGIX_USERNAME="operator"
+AB_CONTROLLOGIX_PASSWORD="ctrlxpass1"
+
+## SCADA (Supervisory Control and Data Acquisition) System Access
+SCADA_SERVER_URL="http://10.10.10.1"
+SCADA_LOGIN="scadaUser"
+SCADA_PASSWORD="sc@da2024Secure!"
+
+## HMI (Human Machine Interface) Configuration
+HMI_IP="192.168.5.50"
+HMI_LOGIN="hmi_operator"
+HMI_PASSWORD="hmiAccess2024!"
+
+## Sensor and Actuator Network
+SENSOR_NETWORK_KEY="00:1D:93:0A:5F:B6"
+ACTUATOR_CONTROL_SECRET="Act123Ctrl456!"
+
+## Safety System Parameters
+SAFETY_SYSTEM_ENABLED="true"
+EMERGENCY_SHUTDOWN_CODE="4532-8765-9523"
+
+## Energy Management
+ENERGY_MONITOR_IP="192.168.3.30"
+ENERGY_MONITOR_USER="energy_mgr"
+ENERGY_MONITOR_PASSWORD="Energy!2024"
+
+# End of Configuration
